@@ -33,6 +33,7 @@ public class QuickChat {
         String output = app.registerUser(firstname, lastname, username, password, cellphone);
         System.out.println(output);
         
+        //Test first name
         if(output.contains("is not correctly")){
             scan.close();
             return;

@@ -81,10 +81,10 @@ class Login {
         String errorMessages = "";
         
         if(!checkUsername(username)){
-            errorMessages = errorMessages + "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters length.\n";
+            errorMessages = errorMessages + "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters length.";
         }
         if(!checkPasswordComplexity(password)){
-            errorMessages = errorMessages + "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number and a special character.\n";
+            errorMessages = errorMessages + "";
         }
         if(!checkCellPhoneNumber(cellphone)){
             errorMessages = errorMessages + "Cellphone is not correctly formatted or does not contain international code.\n";
